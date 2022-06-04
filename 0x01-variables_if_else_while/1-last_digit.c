@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - 1. The last digit
+ * Description: assign a random number and determine the last digit
+ * Return: return 0
+ */
+
 int main(void)
 {
 int n;
