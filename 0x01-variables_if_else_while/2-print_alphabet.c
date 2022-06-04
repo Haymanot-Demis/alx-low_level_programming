@@ -11,6 +11,7 @@
 int main(void)
 {
 char a = 'a';
+
 if (a > 'z')
 {
 putchar(a - 32);
