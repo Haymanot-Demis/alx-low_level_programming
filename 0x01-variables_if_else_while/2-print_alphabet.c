@@ -11,14 +11,9 @@
 int main(void)
 {
 char a = 'a';
-
-if (a > 'z')
+for (int a = a; a < 97; a++)
 {
-putchar(a - 32);
-}
-else
-{
-putchar(a);
+    putchar(a);
 }
 
 return (0);
