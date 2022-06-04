@@ -8,8 +8,7 @@
  */
 
 int main(void)
-{   
-    int var;
+{   int var;
 
     srand(time(0));
     var = rand() - RAND_MAX / 2;
@@ -20,4 +19,5 @@ int main(void)
     else if (var < 0)
         printf("%d is negative\n", var);
     return (0);
+
 }
