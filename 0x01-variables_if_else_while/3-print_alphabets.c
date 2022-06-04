@@ -12,13 +12,13 @@ int main(void)
 {
 char a = 'a';
 
-while (a <= 'a')
+while (a <= 'z')
 {
 putchar(a);
 a++;
 }
 
-char a = 'A';
+a = 'A';
 
 while (a <= 'Z')
 {
