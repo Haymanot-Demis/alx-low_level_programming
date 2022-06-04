@@ -11,7 +11,7 @@ int main(){
         printf("%d is negative",var);
     }
     else{
-        printf("%d is  zero");
+        printf("%d is  zero",var);
     }
 
     return 0;
