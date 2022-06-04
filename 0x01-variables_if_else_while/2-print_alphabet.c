@@ -10,11 +10,12 @@
 
 int main(void)
 {
-char a = 'a';
-for (int a = a; a < 97; a++)
+char a = 97;
+for (char i = a; i < 'z'; i++)
 {
-    putchar(a);
+    putchar(i);
 }
+putchar('\n');
 
 return (0);
 }
