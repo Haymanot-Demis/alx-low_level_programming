@@ -16,7 +16,7 @@ if (var == 0)
 printf("%d is zero\n", var);
 else if (var > 0)
 printf("%d is positive\n", var);      
-else if (var < 0)
+else
 printf("%d is negative\n", var);
 
 return (0);
