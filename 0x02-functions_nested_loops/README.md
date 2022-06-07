@@ -1,1 +1,1 @@
-functions and nested for loops
+Nested loops and functions in C project tasks
