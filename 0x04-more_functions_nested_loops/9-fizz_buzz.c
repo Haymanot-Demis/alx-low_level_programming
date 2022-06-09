@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -5,34 +6,36 @@
  *
  *
  * Return: Always 0
-*/
-
+ */
 int main(void)
 {
-int i;
+	int x = 1;
 
-for (i = 1; i <= 100; i++)
-{
+	while (x < 101)
+	{
+		if (x % 3 == 0 && x % 5 == 0)
+		{
+			printf("%s", "FizzBuzz");
+		}
+		else if (x % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (x % 5 == 0)
+		{
+			printf("%s", "Buzz");
+		}
+		else
+		{
+			printf("%d", x);
+		}
 
-if(i % 3 == 0 && i % 5 == 0)
-{
-printf("FizzBuzz ");
-}
-else if(i % 3 == 0)
-{
-printf("Fizz ");
-}
-else if(i % 5 == 0)
-{
-printf("Buzz ");
-}
-else
-{
-printf("%d ",i);
-}
-
-}
-
-return (0);
-
+		if (x != 100)
+		{
+		printf(" ");
+		}
+		x++;
+	}
+	printf("\n");
+	return (0);
 }
