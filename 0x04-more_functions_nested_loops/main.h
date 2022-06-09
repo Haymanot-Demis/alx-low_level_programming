@@ -7,4 +7,9 @@ int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void print_line(int n);
+void print_triangle(int size);
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 #endif
